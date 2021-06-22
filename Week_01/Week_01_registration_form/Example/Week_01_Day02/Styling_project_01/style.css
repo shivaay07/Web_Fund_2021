@@ -1,0 +1,19 @@
+#first {
+    text-align : center;
+}
+#strong {
+    background-color :  black;
+    font-family : cursive;
+    color : steelblue;
+}
+.fair[h1] {
+    text-align : center;
+    background-color : slateblue;
+    font-style : italic;
+
+}
+h2 {
+    text-align : right;
+    font-family : cursive;
+
+}
