@@ -1,0 +1,50 @@
+#container {
+    width: 960px;
+    height: 980px;
+    background-color:silver;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px;
+}
+h1{
+    font-size: larger;
+    text-align: center;
+}
+.col1 {
+    width: 960px;
+    height: 280px;
+    margin-bottom: 20px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.col2 {
+    width: 960px;
+    height: 280px;
+    margin-bottom: 20px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col3 {
+    width: 960px;
+    height: 280px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}   
+#octet {
+    height: 200px;
+    
+}
+.anchor{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
