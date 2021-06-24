@@ -1,0 +1,35 @@
+body{
+    width: 600px;
+    height: 400px;
+    background-color: gainsboro;
+}
+.row {
+    display: flex;
+}
+.col{
+    width: 400px;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: green;
+    border-color: black;
+    border-style: double;
+}
+.col-2 {
+    width: 400px;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: green;
+    border-color: black;
+    border-style: double;
+}
+.col-3 {
+    width: 400px;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: green;
+    border-color: black;
+    border-style: double;
+}
