@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container {
+    width: 800px;
+        
+}
+#message {
+    width: 700px;
+    border-color: black;
+    height:400px;
+    position: fixed;
+    left: 400px;
+    top: 50px;
+    border: 1px solid black;
+}
+.top-bar {
+    /* width: 500px; */
+    height: 100px;
+    background-color: cadetblue;
+    border-color: black;    
+}
+.main-bar {
+    /* width: 500px; */
+    height: 600px;
+    margin: 30px;
+    /* margin-left: 60px; */
+    /* border-color: black; */
+    /* justify-content: left; */
+}
+.profile {
+    width: 80px;
+    box-shadow: 10px -10px  rgba(243, 240, 240, 0.6);
+    -moz-box-shadow: 10px -10px  rgba(248, 246, 246, 0.6);
+    -webkit-box-shadow: 4px -4px  rgba(247, 247, 247, 0.6);
+    -o-box-shadow: 10px -10px  rgba(243, 241, 241, 0.6);
+    border-radius:50px;
+    margin-left: 30px;
+    position: fixed;  
+    bottom: 600px;  
+}
+.location, .setting {
+    width: 10px;
+    margin-left: 30px;  
+    margin-top: 10px; 
+}
+h1, p {
+    margin-left: 30px;
+    /* margin-top: 20px; */
+}
+
+.para2 {
+    margin-bottom: 30px;
+}
+.heading {
+    margin-top: 60px;
+}
