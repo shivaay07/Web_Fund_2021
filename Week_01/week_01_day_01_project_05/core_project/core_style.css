@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ------------------ Main-Container---------------------- */
+
+
+#container {
+    width: 1200px;
+    height: 1050px;
+}
+
+
+
+/* -------------------------Main-Navbar--------------------------------- */
+
+
+
+.navbar {
+    width:  1200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    font-family: cursive;
+    display: flex;
+}
+
+
+.navheading {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 120px;
+}
+
+
+
+.navigators {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.navigators li a {
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.btn {
+    width: 90px;
+    background-color: rgb(70, 182, 182);
+    height: 30px;
+    margin-top: 44px;
+    margin-left: 270px;
+    margin-bottom: 10px;
+}
+
+.link2 {
+    font-weight: 900;
+}
+
+.link2, a {
+    margin: 5px 10px 0px 22px;
+}
+
+/* ------------------- Left-Container------------------------------------- */
+
+
+.user-container {
+    width: 450px;
+    height: 440px;
+    margin: 0px;
+    padding: 0px;
+    outline: 5px solid rgb(182, 179, 179);
+    margin-left: 112px;
+    display: inline-block;
+    font-family: cursive;
+    margin-top: 85px;
+}
+
+
+/* --------------------User-Card-------------------------------------- */
+
+
+.heading1{
+    margin-top: 46px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.user-navbar {
+    width: 450px;
+    height: 100px;
+    background-color: rgb(70, 182, 182);
+    /* outline: 2px solid gray; */
+}
+.user-mainbar {
+    width: 405px;
+    height: 270px;
+    margin-bottom: 127px;
+    padding: 10px;
+}
+.userpic {
+    width: 120px;
+    margin-right: 50px;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: -36px;
+    padding-bottom: 20px
+}
+.navpic, .settingpic {
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+
+.settingpic {
+    margin-bottom: -4px;
+    margin-top: 5px;
+}
+
+.left > ul > li {
+    list-style-type: none;
+}
+
+.right > ul > li {
+    list-style-type: none;
+}
+
+p {
+    margin-left: 34px;
+    margin-top: 14px;
+}
+
+
+
+
+/* ..-------------Education-block------------------------------- */
+
+.bottom-container {
+    width: 450px;
+    height: 270px;
+    outline: 5px solid rgb(182, 179, 179);
+    margin-top: 20px;
+    /* border: 5px solid rgb(182, 179, 179); */
+}
+
+
+
+.bottom-navbar {
+    width: 450px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    outline: 5px solid rgb(182, 179, 179);
+}
+
+.bottom-mainbar {
+    padding: 18px;
+}
+
+.bottom-mainbar > h4 {
+    color: rgb(182, 179, 179);
+    font-size: small;
+    margin: 6px 0px 12px 0px;
+}
+
+.bottom-mainbar > h1 , h2{
+    font-size:larger;
+    margin-top: 5px;
+}
+
+
+
+.right-container {
+    width: 600px;
+    height: 900px;
+    margin-left: 10px;
+    padding: 0px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+
+.top-right {
+    width: 305px;
+    height: 50px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    margin-left: 10px;
+    margin-top: 80px;
+    outline: 2px solid rgb(182, 179, 179);
+}
+
+.lblbtn {
+    margin-left: 30px;
+    
+}
+
+.left ul img, .sd1, .sd2, .sd3, .sd4 {
+    width : 90px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.right ul img {
+    width: 49px;
+    color: rgb(149, 149, 149);
+
+}
+
+
+.btn2 {
+    border-radius: 50%;
+    width: 35px;
+    padding: 5px;
+    background-color: grey; 
+}
+.right-mainbar {
+    width: 300px;
+    height: 216px;
+    outline: 2px solid rgb(182, 179, 179);
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+
+.rightxtreme {
+    display: flex;
+    width: 30px;
+
+}
+
+.right-bottom {
+    width: 250px;
+    height: 504px;
+    outline: 2px solid rgb(182, 179, 179);
+    display: inline-block;
+    margin-left: 10px;
+}
+.bottombar {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: rgb(58, 57, 57); 
+    outline: 2px solid rgb(182, 179, 179);
+}
+
+.btn-last {
+    radius: 50%;
+    margin-right: 20px;
+    width: 20px;
+}
+
+.rightxtreme {
+    display: block;
+}
+
+
+.rtx1, .rtx2 {
+    width : 60px;
+    margin: 25px 10px 10px 10px;
+}
+
+.rtp1, .rtp2 {
+    margin: 34px 10px 10px 10px;            
+} 
+
+
+
+
+.btn-last {
+    border-radius: 70%;
+    width: 54px;
+    margin-top: 15px;
+    background-color: rgb(194, 191, 191);
+}
+
+.imgname1, .imgname2 {
+    text-align: end;
+    margin: -32px 64px 0px 0px;
+}
+
+
+.last {
+    width:246px;
+    height: 26px;
+    border: 3px solid rgb(182, 179, 179);
+    text-align: start;
+    margin-top: 10px;
+}
+
+
