@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Likes_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ----Main-Container---------------->
+    <div id=Main-container>
+        <!-- Navigation-bar-container--------->
+        <div id=nav-bar>
+            <h1 class="head1">Network</h1>
+        </div>
+        <!-- feed-container------------------>
+        <!-- <div id="title-bar"> -->
+        <h1 id="title-heading">Your Feed</h1>
+        <!-- </div> -->
+        <!-- content-container------->
+        <div class="content-block">
+            <!----left-container--------->
+            <div class="user-profile">
+                <img src="user-circle.png" alt="broken user profile picture">
+                <p class= "avatar"><a class="link1" href="">Add an avatar</a></p>
+                <p class="user-p">Shivam Dutta</p>
+            </div>
+            <!-----Right-Container------>
+            <div class="right-container">
+                <div class="user1-info">
+                    <h1 class="firsth1">Neil M</h1>
+                    <label class="para9" for="like1">9 like(s)</label>
+                    <button onclick="firstLike()" id="like1">Like</button>
+                    <p class="firstp">I just set up this new discord bot, let me <br>know what you all think.<a class="a1" href=""> link</a></p>
+                </div>
+                <div class="user2-info">
+                    <h1 class=secondh1>Nichole K</h1>
+                    <label class="para12" for="like2">12 like(s)</label>
+                    <button onclick="secondLike()" id="like2">Like</button>
+                    <div><p class="secondp">Just finished my<a class ="a2" href=""> next comic</a>, check it out.</p></div>
+                </div>
+                <div class="user3-info">
+                    <div>
+                        <h1 class="thirdh1">Jim R</h1>
+                        <label class="para13" for="like3">9 like(s)</label>
+                        <button onclick="thirdLike()" id="like3">Like</button>
+                    </div>
+                    <div><p class="thirdp">I can't stop listening to the <a class="a3" href="">new album</a>. who else is liking it? </p></div>
+                </div>
+                
+                
+            </div>
+
+            
+        </div>
+
+    </div>
+    
+    <script src="likes.js"></script>
+</body>
+</html>
